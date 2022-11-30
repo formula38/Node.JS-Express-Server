@@ -3,7 +3,8 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/', (req, res) => {
-    res.send('Users Here');
+    console.log(req.query.name)
+    res.send('Users List');
 });
 
 router.get('/new', (req, res) => {
@@ -11,7 +12,7 @@ router.get('/new', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    const isValid = true;
+    const isValid = false;
     if (isValid) {
         users.push({
             firstname: req.body.firstname
@@ -19,7 +20,7 @@ router.post('/', (req, res) => {
         res.redirect(`/users/${users.length - 1}`);
     } else {
         console.log('Error');
-        res.render('users/new', {firstname: req.body.firstname});
+        // res.render('users/new', {firstname: req.body.firstname});
     }
 
     console.log(req.body.firstname);
