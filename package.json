@@ -1,0 +1,14 @@
+{
+  "name": "serverexpressapp",
+  "version": "1.0.0",
+  "description": "Prepare for Everything",
+  "main": "app.js",
+  "scripts": {
+    "test": "Here we go!"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
