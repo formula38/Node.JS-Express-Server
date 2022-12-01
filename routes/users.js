@@ -33,10 +33,12 @@ router
         res.json(req.user);
     })
     .put((req, res) => {
-        res.send(`Update User with ID ${req.params.id}`);
+        res.render('user/update', {firstname: req.body.firstname});
+
     })
     .delete((req, res) => {
-        res.send(`Delete User with ID ${req.params.id}`);
+        res.render('user/delete', {firstname: req.body.firstname});
+        users.slice(req.user);
     });
 
 const users =
