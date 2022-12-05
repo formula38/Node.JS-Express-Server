@@ -17,3 +17,7 @@ L
 views/index.ejs,4\9\496c03b4d5f1774ceafd2fb8b05f3c5113512c61
 C
 views/users/new.ejs,d\a\da9a27277a696e422c02b04962142d5734d00b93
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47

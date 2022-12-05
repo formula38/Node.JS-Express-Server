@@ -23,8 +23,8 @@ router.post('/', (req, res) => {
         res.render('users/new', {firstname: req.body.firstname});
     }
 
-    console.log(req.body.firstname);
-    res.send('Hi.' + req.body.firstname);
+    // console.log(req.body.firstname);
+    // res.send('Hi.' + req.body.firstname);
 });
 
 router
