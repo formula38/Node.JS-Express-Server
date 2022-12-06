@@ -1,8 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-7
-bin/www,f\9\f9f3ad31c1666c9d010b84cbbe24e70370a40411
 L
 public/stylesheets/style.css,3\7\373d337c32dec564fe0da458c6478733eec21e5a
 ?
@@ -17,7 +13,3 @@ L
 views/index.ejs,4\9\496c03b4d5f1774ceafd2fb8b05f3c5113512c61
 C
 views/users/new.ejs,d\a\da9a27277a696e422c02b04962142d5734d00b93
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
-A
-package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
