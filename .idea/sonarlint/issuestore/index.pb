@@ -9,7 +9,5 @@ L
 	server.js,d\c\dc60ea9ee1ff6246bf342463277d5b914db2883d
 ?
 routes/index.js,3\0\30dfc417d69af8ed298ed4111dcab68f38ca7f54
-?
-views/index.ejs,4\9\496c03b4d5f1774ceafd2fb8b05f3c5113512c61
 C
 views/users/new.ejs,d\a\da9a27277a696e422c02b04962142d5734d00b93
